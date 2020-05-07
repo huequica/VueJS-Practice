@@ -1,0 +1,56 @@
+root:
+  true
+
+env:
+  browser: true
+  es6: true
+  node: true
+
+extends:
+  - plugin:vue/essential
+  - '@vue/airbnb'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+  # `process.env`が使えないのは困る
+  process: true
+
+parserOptions:
+  parser:
+    - babel-eslint
+
+rules:
+  # `var`を使ったら怒るよ
+  no-var: error
+
+  # セミコロン抜かないで
+  semi: error
+
+  # `==` とかを使わないでね
+  eqeqeq: error
+
+  # カンマのあとはスペースを入れてくれ
+  comma-spacing: error
+
+  # インデントは2で守ってね
+  indent:
+    - error
+    - tab
+
+  # `console.log`は消しておいて
+  no-console: error
+
+  # ブロック演算子はスペース入れてね
+  block-spacing: error
+
+  # 演算子の前後のスペースは絶対抜かないで
+  space-infix-ops: error
+
+  # アロー演算子前後のスペース強制
+  arrow-spacing: error
+
+  # タブとスペースを混ぜないで
+  no-mixed-spaces-and-tabs: error
+
+  # タブを許可
+  no-tabs: off
