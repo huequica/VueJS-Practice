@@ -1,8 +1,10 @@
 import Vue from 'vue';
-import App from './App.vue';
+import Root from './Root.vue';
 
 Vue.config.productionTip = false;
 
+// eslint-disable-next-line no-new
 new Vue({
-	render: (h) => h(App),
-}).$mount('#app');
+	render: (h) => h(Root),
+	el: 'div#app',
+});
