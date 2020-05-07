@@ -1,4 +1,6 @@
-# vuejs-practice
+# huequica/vuejs-practice
+
+This Repos is a learning repos for VueJS.
 
 ## Project setup
 ```
