@@ -15,14 +15,17 @@
 			</li>
 		</ol>
 
+		<Button />
 	</div>
 
 </template>
 
 <script>
+import Button from './Components/button.vue';
+
 export default {
 	name: 'Root',
-
+	components: { Button },
 	// VueにおいてArrow Functionは非推奨ぽい？
 	data() {
 		return {
