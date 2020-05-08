@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div v-bind:title="title">
 		Hello Vue!<br />
 		{{ message }}
 	</div>
@@ -13,6 +13,7 @@ export default {
 	data() {
 		return {
 			message: 'Hello World',
+			title: 'sample title',
 		};
 	},
 };
