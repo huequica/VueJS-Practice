@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p></p>
+		<p>{{ Message }}</p>
 		<button v-on:click="reverseMessage">ReverseMessage</button>
 	</div>
 </template>
