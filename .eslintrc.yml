@@ -54,3 +54,6 @@ rules:
 
   # タブを許可
   no-tabs: off
+
+  # `,` を絶対入れるってルールはウザいので許可
+  comma-dangle: off
