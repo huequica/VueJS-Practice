@@ -18,9 +18,9 @@ export default {
 	// この際自分のコンポーネントの `state` は `this.~~` で拾える
 	methods: {
 		reverseMessage() {
-			this.message = this.message.split('')
+			this.$set(this, 'Message', this.Message.split('')
 				.reverse()
-				.join();
+				.join(''));
 		}
 	}
 };
