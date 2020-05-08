@@ -21,6 +21,11 @@ export default {
 			message: 'Hello World',
 			title: 'sample title',
 			isSpanAppear: true,
+			ListQue: [
+				{ text: 'Learn JS(ES2017)' },
+				{ text: 'Learn VueJS' },
+				{ text: 'Build Great WebApp' },
+			],
 		};
 	},
 };
