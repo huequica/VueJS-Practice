@@ -15,19 +15,19 @@
 			</li>
 		</ol>
 
-		<Button />
+		<ReverseButton />
 		<Model />
 	</div>
 
 </template>
 
 <script>
-import Button from './Components/button.vue';
+import ReverseButton from './Components/reverseButton.vue';
 import Model from './Components/model.vue';
 
 export default {
 	name: 'Root',
-	components: { Button, Model },
+	components: { ReverseButton, Model },
 	// VueにおいてArrow Functionは非推奨ぽい？
 	data() {
 		return {

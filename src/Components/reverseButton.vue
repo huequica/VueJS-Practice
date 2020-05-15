@@ -7,7 +7,7 @@
 
 <script>
 export default {
-	name: 'button',
+	name: 'reverseButton',
 	data() {
 		return {
 			Message: 'Reversed!'
