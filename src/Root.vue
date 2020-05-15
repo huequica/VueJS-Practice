@@ -10,7 +10,7 @@
 
 		{{/* `v-for` でeachみたいな処理が可能、ただし `v-bind:key` を与える必要あり */}}
 		<ol>
-			<li v-for="Item in ListQue" v-bind:key="Item">
+			<li v-for="Item in ListQue" v-bind:key="Item.text">
 				{{Item.text}}
 			</li>
 		</ol>
