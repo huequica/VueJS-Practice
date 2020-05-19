@@ -35,7 +35,7 @@ rules:
   # インデントは2で守ってね
   indent:
     - error
-    - tab
+    - 2
 
   # `console.log`は消しておいて
   no-console: error
