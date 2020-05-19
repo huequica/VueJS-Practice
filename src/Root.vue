@@ -26,20 +26,20 @@ import ReverseButton from './Components/reverseButton.vue';
 import Model from './Components/model.vue';
 
 export default {
-	name: 'Root',
-	components: { ReverseButton, Model },
-	// VueにおいてArrow Functionは非推奨ぽい？
-	data() {
-		return {
-			message: 'Hello World',
-			title: 'sample title',
-			isSpanAppear: true,
-			ListQue: [
-				{ text: 'Learn JS(ES2017)' },
-				{ text: 'Learn VueJS' },
-				{ text: 'Build Great WebApp' },
-			],
-		};
-	},
+  name: 'Root',
+  components: { ReverseButton, Model },
+  // VueにおいてArrow Functionは非推奨ぽい？
+  data() {
+    return {
+      message: 'Hello World',
+      title: 'sample title',
+      isSpanAppear: true,
+      ListQue: [
+        { text: 'Learn JS(ES2017)' },
+        { text: 'Learn VueJS' },
+        { text: 'Build Great WebApp' },
+      ],
+    };
+  },
 };
 </script>
