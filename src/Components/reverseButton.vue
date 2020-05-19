@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<p>{{ Message }}</p>
-		<button v-on:click="reverseMessage">ReverseMessage</button>
+		<button v-on:click="reverseMessage">{{label}}</button>
 	</div>
 </template>
 
