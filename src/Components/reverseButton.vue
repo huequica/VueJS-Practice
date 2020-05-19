@@ -8,6 +8,7 @@
 <script>
 export default {
 	name: 'reverseButton',
+	props: ['label'],
 	data() {
 		return {
 			Message: 'Reversed!'
