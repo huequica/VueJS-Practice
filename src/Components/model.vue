@@ -9,11 +9,11 @@
 
 <script>
 export default {
-	name: 'Model',
-	data() {
-		return {
-			message: 'Hello Vue!'
-		};
-	}
+  name: 'Model',
+  data() {
+    return {
+      message: 'Hello Vue!'
+    };
+  }
 };
 </script>
