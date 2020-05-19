@@ -15,7 +15,7 @@
 			</li>
 		</ol>
 
-		<ReverseButton />
+		<ReverseButton v-bind:label="'Reverse!!!'" />
 		<Model />
 	</div>
 
